@@ -1,0 +1,262 @@
+  * {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}  
+
+
+    
+.big-header a {
+        
+        display: none;
+    }
+    
+
+header {
+    
+    text-align: center;
+}
+
+
+.sidepanel {
+    
+    height: 290px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    
+}
+
+
+.sidepanel a {
+    
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+
+.sidepanel a:hover {
+    
+    color: #f1f1f1;
+}
+
+
+.sidepanel .closebtn {
+    
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+
+.openbtn {
+    
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.openbtn:hover {
+    
+    background-color: #444;
+}
+
+
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img{
+    
+    width: 375px;
+ 
+}
+
+
+
+.contact-hours {
+    
+    height: 350px;
+    padding-top: 120px;
+}
+
+
+.top-tittle {
+    
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+p {
+    
+   font-size: 20px; 
+    line-height: 1.6;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+
+
+footer {
+    
+    width: 100%;
+}
+
+
+
+.social-media {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    background-color: #111;
+    width: 100%;
+}
+
+
+.icon {
+    
+  color: palevioletred;
+  padding: 10px;
+  
+}
+
+
+.icon:hover {
+    
+    color:#ccccd7;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+ 
+ .big-header a {
+        
+        display: none;
+    }
+    
+    
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img{
+    
+    width: 430px;
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+
+
+.contact-hours {
+    
+    height: 450px;
+    padding-top: 120px;
+}
+
+
+.top-tittle {
+    
+    font-size: 30px;
+}
+
+
+p {
+    
+   font-size: 25px; 
+}
+  
+     
+    
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    
+  
+
+ header, .sidepanel, .closebtn, .openbtn {
+        
+        display: none;
+        
+    }
+    
+    
+ 
+    
+    .big-header a {
+        
+        display: inline-block;
+        height: 80px;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 20px;
+        color: #303030;
+        font-family: 'Archivo', sans-serif;
+   
+   }
+    
+    
+    
+    .big-header a:hover {
+        
+         color: palevioletred;
+    }
+    
+
+    
+.big-header {
+        
+        margin: 0px 50px 0px 40px;
+        padding-left: 120px;
+        position: sticky;
+      
+    }
+    
+}
+
+
